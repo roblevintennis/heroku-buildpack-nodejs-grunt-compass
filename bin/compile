@@ -183,6 +183,9 @@ echo "-----> Check compass version"
 which compass
 compass -v
 
+# install system zip
+apt-get install zip
+
 # install dependencies with npm
 echo "-----> Installing dependencies with npm"
 run_npm "install --production"
